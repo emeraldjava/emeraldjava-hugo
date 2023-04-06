@@ -22,6 +22,8 @@
 .idea/
 .hugo_build.lock
 notes.txt
+go.mod
+go.sum
 
 themes/*
 
