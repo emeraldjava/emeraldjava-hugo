@@ -17,8 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.ACTIONS_TOKEN }}
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0
 
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
