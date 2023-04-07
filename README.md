@@ -10,9 +10,6 @@ Steps
 
 ## themes
 
-https://themes.gohugo.io/themes/anatole/
+### hyde
 
-To add as git sub-module run
-
-    git submodule add https://github.com/yursan9/manis-hugo-theme themes/manis
-    git submodule update --remote --merge --init
+    git submodule add https://github.com/spf13/hyde.git themes/hyde
