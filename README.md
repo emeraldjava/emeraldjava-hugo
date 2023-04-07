@@ -15,4 +15,4 @@ https://themes.gohugo.io/themes/anatole/
 To add as git sub-module run
 
     git submodule add https://github.com/yursan9/manis-hugo-theme themes/manis
-    git submodule update --remote --merge
+    git submodule update --remote --merge --init
