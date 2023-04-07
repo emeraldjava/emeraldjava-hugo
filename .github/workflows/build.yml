@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: |
           hugo mod get -u
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify --baseURL "https://emeraldjava.github.io/emeraldjava-hugo/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
